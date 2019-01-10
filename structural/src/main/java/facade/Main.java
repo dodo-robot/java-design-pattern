@@ -3,8 +3,10 @@ package facade;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		ShapeMakerFacade shaper = new ShapeMakerFacade();
+		shaper.drawCircle();
+		shaper.drawRectangle();
+		shaper.drawSquare(); 
 	}
 
 }
